@@ -7,8 +7,7 @@ The Sunspot Data Analysis and Visualization project aims to extract, transform, 
    - Extraction: Loading CSV data into a DataFrame using the Pandas library.
    - Transformation: Clean up the data and calculate additional insights such as logarithmic transformation.
    - Load: Saving the transformed data into a SQLite database for future use.
-
-2.Data analysis:
+2. Data analysis:
    - Creating a timestamp to facilitate time series analysis.
    - Use Python libraries such as Pandas and Matplotlib to visualise the data.
    - Apply procedures such as moving averages to smooth the data and identify major trends and patterns.
