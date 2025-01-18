@@ -3,19 +3,18 @@
 The Sunspot Data Analysis and Visualization project aims to extract, transform, and load (ETL) historical sunspot data from a CSV file. 
 
 ## Project Structure
+1. ETL process:
+   - Extraction: Loading CSV data into a DataFrame using the Pandas library.
+   - Transformation: Clean up the data and calculate additional insights such as logarithmic transformation.
+   - Load: Saving the transformed data into a SQLite database for future use.
 
-1. ETL Process:
-   - Extraction: Load CSV data into a DataFrame using Pandas.
-   - Transformation: Clean the data and compute additional insights such as log transformations.
-   - Loading: Store the transformed data in an SQLite database for further access.
+2.Data analysis:
+   - Creating a timestamp to facilitate time series analysis.
+   - Use Python libraries such as Pandas and Matplotlib to visualise the data.
+   - Apply procedures such as moving averages to smooth the data and identify major trends and patterns.
 
-2. Data Analysis:
-   - Create a timestamp column for ease of time series analysis.
-   - Use Python libraries such as Pandas and Matplotlib for data visualization.
-   - Employ techniques like rolling averages to smooth data and reveal underlying trends and patterns.
-
-3. Results and Insights:
-   - Examination of the trend and cyclical nature of sunspot occurrences over time.
+3. Findings and conclusions:
+   - Investigate the trend and cyclicity of sunspot occurrence over time.
 
 ## Tools and Libraries Used
 - Pandas
